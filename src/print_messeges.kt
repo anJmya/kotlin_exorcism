@@ -92,13 +92,13 @@
 //}
 
 // TASK 8
-//fun main (){
-//    println(timeSpend(300,300))
-//}
-//
-//fun timeSpend(today: Int, yesterday: Int): Boolean {
-//    return today > yesterday
-//}
+fun main (){
+    println(timeSpend(300,300))
+}
+
+fun timeSpend(today: Int, yesterday: Int): Boolean {
+    return today > yesterday
+}
 
 // TASK 9
 fun main() {
