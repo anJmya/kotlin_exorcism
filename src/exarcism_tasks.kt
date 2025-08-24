@@ -92,13 +92,13 @@
 //}
 
 // TASK 8
-fun main (){
-    println(timeSpend(300,300))
-}
-
-fun timeSpend(today: Int, yesterday: Int): Boolean {
-    return today > yesterday
-}
+//fun main (){
+//    println(timeSpend(300,300))
+//}
+//
+//fun timeSpend(today: Int, yesterday: Int): Boolean {
+//    return today > yesterday
+//}
 
 // TASK 9
 fun main() {
@@ -106,7 +106,7 @@ fun main() {
     temperature("Cape Town", 59,64,2)
 }
 
-fun temperature(city: String, lowTemp: Int, highTemp: Int, rain: Int): Unit {
+fun temperature(city: String, lowTemp: Int, highTemp: Int, rain: Int) {
     println(
         """City: $city
            Low Temperature: $lowTemp, High temperature: $highTemp
